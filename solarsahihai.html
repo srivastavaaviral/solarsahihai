@@ -98,7 +98,11 @@
        </div>
        <h1 id="hero-title" class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">Power Your Future with <span class="gradient-text">Solar Energy</span></h1>
        <p id="hero-subtitle" class="text-lg sm:text-xl text-slate-300 mb-8 max-w-xl mx-auto lg:mx-0">India's leading solar solutions provider. Save up to 90% on electricity bills while contributing to a greener planet.</p>
-       <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"><button id="cta-button" class="px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-xl hover:from-orange-600 hover:to-amber-600 transition-all shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1"> Get Free Quote </button> <button class="px-8 py-4 bg-slate-800/80 text-white font-semibold rounded-xl border border-slate-600 hover:bg-slate-700 transition-all flex items-center justify-center gap-2">
+
+       <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"><a href="#contact"
+   class="px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-xl hover:from-orange-600 hover:to-amber-600 transition-all shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1 flex items-center justify-center">
+  Get Free Quote
+</a><button class="px-8 py-4 bg-slate-800/80 text-white font-semibold rounded-xl border border-slate-600 hover:bg-slate-700 transition-all flex items-center justify-center gap-2">
          <svg width="20" height="20" fill="currentColor" viewbox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
          </svg> Watch Video </button>
        </div>
@@ -347,7 +351,7 @@
          </div>
          <div>
           <p class="text-slate-400 text-sm">Call Us</p>
-          <p id="phone-display" class="text-white font-semibold">+91 98765 43210</p>
+          <p id="phone-display" class="text-white font-semibold">+91 9559159999</p>
          </div>
         </div>
         <div class="flex items-center gap-4 p-4 bg-slate-800/50 rounded-xl">
@@ -369,10 +373,11 @@
           <p class="text-slate-400 text-sm">Visit Us</p>
           <p class="text-white font-semibold">Pan India Service Available</p>
          </div>
+
         </div>
        </div>
       </div><!-- Contact Form -->
-      <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-700/50">
+      <!-- <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-700/50">
        <h3 class="text-xl font-bold text-white mb-6">Request Free Quote</h3>
        <form id="contact-form" class="space-y-4">
         <div><label class="block text-slate-300 mb-2 text-sm">Full Name</label> <input type="text" class="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-500 transition-colors" placeholder="Enter your name" required>
@@ -389,8 +394,73 @@
        <p id="form-message" class="text-center text-green-400 mt-4 hidden">Thank you! We'll contact you within 24 hours.</p>
       </div>
      </div>
+    </div></section> -->
+  <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-700/50">
+  <h3 class="text-xl font-bold text-white mb-6">Request Free Quote</h3>
+
+  <form id="contact-form"
+        action="https://formsubmit.co/aviralsrivastava284@gmail.com"
+        method="POST"
+        class="space-y-4">
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Solar Quote Request">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://solarsahihai.netlify.app/#thankyou">
+
+    <div>
+      <label class="block text-slate-300 mb-2 text-sm">Full Name</label>
+      <input type="text" name="Full Name"
+        class="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white"
+        placeholder="Enter your name" required>
     </div>
-   </section><!-- Footer -->
+
+    <div>
+      <label class="block text-slate-300 mb-2 text-sm">Phone Number</label>
+      <input type="tel" name="Phone Number"
+        class="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white"
+        placeholder="+91 XXXXX XXXXX" required>
+    </div>
+
+    <div>
+      <label class="block text-slate-300 mb-2 text-sm">Email Address</label>
+      <input type="email" name="Email"
+        class="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white"
+        placeholder="your@email.com" required>
+    </div>
+
+    <div>
+      <label class="block text-slate-300 mb-2 text-sm">City</label>
+      <input type="text" name="City"
+        class="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white"
+        placeholder="Your city" required>
+    </div>
+
+    <div>
+      <label class="block text-slate-300 mb-2 text-sm">Monthly Bill (Approx)</label>
+      <select name="Monthly Bill"
+        class="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white">
+        <option value="">Select range</option>
+        <option value="1000-3000">₹1,000 - ₹3,000</option>
+        <option value="3000-5000">₹3,000 - ₹5,000</option>
+        <option value="5000-10000">₹5,000 - ₹10,000</option>
+        <option value="10000+">₹10,000+</option>
+      </select>
+    </div>
+
+    <button type="submit"
+      class="w-full py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-xl">
+      Submit Request
+    </button>
+
+  </form>
+
+  <p id="thankyou-message"
+     class="text-center text-green-400 mt-4 hidden">
+     Thank you! Our team will contact you soon.
+  </p>
+</div>
+   <!-- Footer -->
    <footer class="py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
     <div class="max-w-7xl mx-auto">
      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -571,14 +641,7 @@
     const contactForm = document.getElementById('contact-form');
     const formMessage = document.getElementById('form-message');
 
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      formMessage.classList.remove('hidden');
-      contactForm.reset();
-      setTimeout(() => {
-        formMessage.classList.add('hidden');
-      }, 5000);
-    });
+
 
     // Smooth scroll for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -591,5 +654,10 @@
       });
     });
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d4e3e02011959fc',t:'MTc3MjI2NDA5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d4e3e02011959fc',t:'MTc3MjI2NDA5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script>
+  if (window.location.hash === "#thankyou") {
+    document.getElementById("thankyou-message").classList.remove("hidden");
+    document.getElementById("contact-form").reset();
+  }
+</script></body>
 </html>
